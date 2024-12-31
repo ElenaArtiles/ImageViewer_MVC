@@ -1,8 +1,8 @@
-package software.ulpgc.imageviewer;
+package software.ulpgc.imageviewer.app;
 
-import software.ulpgc.imageviewer.model.Image;
-import software.ulpgc.imageviewer.view.ImageDisplay;
-import software.ulpgc.imageviewer.view.ImageResizer;
+import software.ulpgc.imageviewer.architecture.model.Image;
+import software.ulpgc.imageviewer.architecture.view.ImageDisplay;
+import software.ulpgc.imageviewer.architecture.view.ImageResizer;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
