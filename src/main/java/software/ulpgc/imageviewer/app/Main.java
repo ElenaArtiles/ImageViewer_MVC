@@ -12,7 +12,7 @@ public class Main {
     public static String root;
 
     public static void main(String[] args) throws MalformedURLException {
-        root = "src/main/resources";
+        root = "test_images";
         Image image = new FileImageLoader(new File(root)).load();
         SwingMainFrame mainFrame = new SwingMainFrame();
         mainFrame.getImageDisplay().show(image);
